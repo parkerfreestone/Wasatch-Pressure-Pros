@@ -39,7 +39,7 @@ export const Nav = () => {
       className={`${
         isScrolled ? "text-zinc-700" : "text-zinc-100"
       } hover:text-zinc-400 text-xl`}
-      href={`#${item.name.toLowerCase()}`}
+      href={`#${item.name.toLowerCase().split(" ").join("")}`}
     >
       {item.name}
     </a>
@@ -49,24 +49,24 @@ export const Nav = () => {
     <nav
       className={`${
         isScrolled ? "bg-white shadow-lg" : "bg-transparent text-zinc-100"
-      } fixed z-50 transition-all duration-300 px-16 rounded-xl m-5`}
+      } fixed z-50 transition-all duration-300 px-4 sm:px-16 rounded-xl m-5`}
       style={{ width: "calc(100vw - 2.5rem)" }}
     >
       <div
         className={` ${
           isScrolled ? "border-zinc-800" : "border-zinc-100"
-        } flex justify-between items-center gap-12 py-6`}
+        } flex justify-between items-center md:gap-12 py-6`}
       >
         <div className="font-bold text-xl">Wasatch Pressure Pros</div>
-        <div className="hidden sm:flex gap-6 items-center h-full">
+        <div className="hidden xl:flex gap-6 items-center h-full">
           {navItems.map(renderNavItem)}
         </div>
-        <div className="flex gap-5 sm:hidden">
+        <div className="flex gap-5 xl:hidden">
           <button onClick={() => setIsOpen(!isOpen)} className="p-2">
             {isOpen ? <X /> : <Menu />}
           </button>
         </div>
-        <div className="hidden sm:flex gap-5 flex-1 justify-end items-center">
+        <div className="hidden xl:flex gap-5 flex-1 justify-end items-center">
           <div
             className={`${
               isScrolled
@@ -92,7 +92,7 @@ export const Nav = () => {
       <div
         className={`${
           isOpen ? "slide-in" : "slide-out"
-        } sm:hidden flex flex-col justify-start items-start h-screen w-screen bg-white fixed top-0 left-0 z-50 gap-8 text-2xl p-8`}
+        } xl:hidden flex flex-col justify-start items-start h-screen w-screen bg-white fixed top-0 left-0 z-50 gap-8 text-2xl p-8`}
       >
         <button
           className="absolute top-0 right-0 m-4"

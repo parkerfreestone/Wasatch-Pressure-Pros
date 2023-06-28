@@ -26,10 +26,10 @@ const services = [
 
 export const Services = () => {
   return (
-    <section id="our services" className="bg-zinc-100 py-24 rounded-b-3xl">
+    <section id="ourservices" className="bg-zinc-100 py-24 rounded-b-3xl">
       <p className="text-xl font-bold text-center text-zinc-400">SERVICES</p>
       <h2 className="text-5xl font-bold text-center">Our Services</h2>
-      <div className="flex flex-col sm:flex-row gap-16 justify-between mx-16 mt-24 text-center">
+      <div className="flex flex-col lg:flex-row gap-4 lg:gap-16 justify-between mx-4 md:mx-16 mt-24 text-center">
         {services.map((service) => (
           <div
             key={service.id}

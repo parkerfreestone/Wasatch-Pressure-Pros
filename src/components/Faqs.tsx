@@ -35,19 +35,19 @@ const questions = [
 
 export const Faqs = () => {
   return (
-    <section id="our services" className="bg-zinc-100">
-      <div className="pt-52 pb-24 mx-16 -mt-16 z-10">
+    <section id="faqs" className="bg-zinc-100">
+      <div className="pt-52 pb-24 mx-4 lg:mx-16 -mt-16 z-10">
         <div className="text-center">
           <p className="text-xl font-bold text-zinc-400">FAQ'S</p>
           <h2 className="text-5xl font-bold mb-16">
             Frequently Asked Questions
           </h2>
         </div>
-        <div className="grid gap-12 grid-cols-2">
+        <div className="grid gap-4 lg:gap-12 grid-cols-1 lg:grid-cols-2">
           {questions.map(({ question, answer }) => (
             <div className="flex justify-between gap-12 p-12 bg-white rounded-xl">
-              <HelpCircle size={48} />
-              <div>
+              <HelpCircle size={32} />
+              <div className="flex-1">
                 <h3 className="font-bold text-zinc-800 text-2xl mb-6">
                   {question}
                 </h3>

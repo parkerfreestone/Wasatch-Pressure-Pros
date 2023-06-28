@@ -4,7 +4,7 @@ import BannerVideo from "../assets/power-washing-banner.mp4";
 export const Hero = () => {
   return (
     <section
-      id="#home"
+      id="home"
       className="relative h-calc flex items-center justify-center text-center"
       style={{ height: "calc(100vh - 10rem)" }}
     >
@@ -16,14 +16,12 @@ export const Hero = () => {
         loop
       />
       <div className="absolute top-0 left-0 w-full h-full bg-black/60 z-20 rounded-b-2xl" />
-      <div className="relative z-30 container mx-auto px-6 sm:px-8 lg:px-10 xl:px-20">
-        <p className="flex items-center gap-2 text-xl text-white font-bold justify-center">
-          <div>
-            <Droplet size={16} />
-          </div>
+      <div className="relative z-30 container mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:px-20">
+        <p className="items-center gap-2 text-xl text-white font-bold justify-center hidden xl:flex">
+          <Droplet size={16} />
           Precision in Power Washing
         </p>
-        <h1 className="text-8xl text-white font-extrabold mt-12">
+        <h1 className="text-5xl sm:text-6xl md:text-6xl lg:text-8xl text-white font-extrabold mt-12">
           Professional <br /> Power Washing Services
         </h1>
         <p className="mt-4 text-xl text-white">
@@ -31,17 +29,17 @@ export const Hero = () => {
           We deliver superior quality, enhancing the beauty and value of your
           property.
         </p>
-        <div className="flex gap-4 mt-24 justify-center">
+        <div className="flex flex-col sm:flex-row gap-4 mt-24 justify-center">
           <a
             href="#"
-            className="px-8 py-3 bg-teal-500 rounded-full flex gap-2 font-bold text-white"
+            className="px-8 py-3 rounded-full bg-teal-500 flex gap-2 font-bold text-white mt-4 sm:mt-0 justify-center sm:justify-start"
           >
             CONTACT US
             <ArrowUpRight />
           </a>
           <a
             href="#"
-            className="px-8 py-3 rounded-full border border-white flex gap-2 font-bold text-white"
+            className="px-8 py-3 rounded-full border border-white flex gap-2 font-bold text-white mt-4 sm:mt-0 justify-center sm:justify-start"
           >
             LEARN MORE
             <ArrowRight />
