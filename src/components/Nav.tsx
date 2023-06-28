@@ -48,7 +48,7 @@ export const Nav = () => {
   return (
     <nav
       className={`${
-        isScrolled ? "bg-white" : "bg-transparent text-zinc-100"
+        isScrolled ? "bg-white shadow-lg" : "bg-transparent text-zinc-100"
       } fixed z-50 transition-all duration-300 px-16 rounded-xl m-5`}
       style={{ width: "calc(100vw - 2.5rem)" }}
     >

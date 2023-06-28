@@ -2,6 +2,8 @@ import { Helmet } from "react-helmet";
 import { Hero } from "./components/Hero";
 import { Nav } from "./components/Nav";
 import { Services } from "./components/Services";
+import { About } from "./components/About";
+import { Faqs } from "./components/Faqs";
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
       </header>
       <Hero />
       <Services />
+      <About />
+      <Faqs />
     </>
   );
 }
