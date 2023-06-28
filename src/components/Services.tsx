@@ -27,18 +27,22 @@ const services = [
 export const Services = () => {
   return (
     <section id="ourservices" className="bg-zinc-100 py-24 rounded-b-3xl">
-      <p className="text-xl font-bold text-center text-zinc-400">SERVICES</p>
-      <h2 className="text-5xl font-bold text-center">Our Services</h2>
+      <span data-aos="fade-up" data-aos-delay="100">
+        <p className="text-xl font-bold text-center text-zinc-400">SERVICES</p>
+        <h2 className="text-5xl font-bold text-center">Our Services</h2>
+      </span>
       <div className="flex flex-col lg:flex-row gap-4 lg:gap-16 justify-between mx-4 md:mx-16 mt-24 text-center">
-        {services.map((service) => (
+        {services.map((service, index) => (
           <div
+            data-aos="fade-up"
+            data-aos-delay={200 * index}
             key={service.id}
             className="flex-1 px-6 py-12 rounded-xl bg-white"
           >
             <service.Icon size={48} className="text-zinc-500 mx-auto" />
-            <h2 className="text-3xl text-zinc-800 font-bold mb-8 mt-8">
+            <h3 className="text-3xl text-zinc-800 font-bold mb-8 mt-8">
               {service.title}
-            </h2>
+            </h3>
             <p className="text-xl text-zinc-600">{service.description}</p>
           </div>
         ))}

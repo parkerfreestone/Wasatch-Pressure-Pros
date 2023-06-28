@@ -44,8 +44,13 @@ export const Faqs = () => {
           </h2>
         </div>
         <div className="grid gap-4 lg:gap-12 grid-cols-1 lg:grid-cols-2">
-          {questions.map(({ question, answer }) => (
-            <div className="flex justify-between gap-12 p-12 bg-white rounded-xl">
+          {questions.map(({ question, answer }, index) => (
+            <div
+              key={index}
+              data-aos="fade-up"
+              data-aos-delay={50 * index}
+              className="flex flex-col lg:flex-row justify-between gap-12 p-12 bg-white rounded-xl"
+            >
               <HelpCircle size={32} />
               <div className="flex-1">
                 <h3 className="font-bold text-zinc-800 text-2xl mb-6">

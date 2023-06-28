@@ -1,11 +1,21 @@
+import { useEffect } from "react";
 import { Helmet } from "react-helmet";
+import AOS from "aos";
+
 import { Hero } from "./components/Hero";
 import { Nav } from "./components/Nav";
 import { Services } from "./components/Services";
 import { About } from "./components/About";
 import { Faqs } from "./components/Faqs";
 
-function App() {
+const App = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      easing: "ease",
+    });
+  }, []);
+
   return (
     <>
       <Helmet>
@@ -30,6 +40,6 @@ function App() {
       <Faqs />
     </>
   );
-}
+};
 
 export default App;
