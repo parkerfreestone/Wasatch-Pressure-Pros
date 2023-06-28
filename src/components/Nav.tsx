@@ -1,14 +1,5 @@
 import { useEffect, useState } from "react";
-import {
-  ArrowUpRight,
-  Mail,
-  Menu,
-  X,
-  Home,
-  Hammer,
-  Info,
-  MessageSquare,
-} from "lucide-react";
+import { ArrowUpRight, Mail, Menu, X } from "lucide-react";
 
 // THIS USED TO HAVE ICONS
 const navItems = [
