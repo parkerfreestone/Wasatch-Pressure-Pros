@@ -30,7 +30,7 @@ export const Nav = () => {
       key={index}
       className={`${
         isScrolled ? "text-zinc-700" : "text-zinc-800 lg:text-zinc-100"
-      } hover:text-zinc-400 text-4xl :text-xl`}
+      } hover:text-zinc-400 text-4xl lg:text-xl`}
       href={`#${item.name.toLowerCase().split(" ").join("")}`}
     >
       {item.name}
