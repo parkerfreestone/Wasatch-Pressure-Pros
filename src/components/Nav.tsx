@@ -10,11 +10,12 @@ import {
   MessageSquare,
 } from "lucide-react";
 
+// THIS USED TO HAVE ICONS
 const navItems = [
-  { name: "Home", Icon: Home },
-  { name: "Our Services", Icon: Hammer },
-  { name: "About Us", Icon: Info },
-  { name: "FAQs", Icon: MessageSquare },
+  { name: "Home" },
+  { name: "Our Services" },
+  { name: "About Us" },
+  { name: "FAQs" },
 ];
 
 export const Nav = () => {
@@ -37,8 +38,8 @@ export const Nav = () => {
     <a
       key={index}
       className={`${
-        isScrolled ? "text-zinc-700" : "text-zinc-100"
-      } hover:text-zinc-400 text-xl`}
+        isScrolled ? "text-zinc-700" : "text-zinc-800 lg:text-zinc-100"
+      } hover:text-zinc-400 text-4xl :text-xl`}
       href={`#${item.name.toLowerCase().split(" ").join("")}`}
     >
       {item.name}
@@ -49,8 +50,7 @@ export const Nav = () => {
     <nav
       className={`${
         isScrolled ? "bg-white shadow-lg" : "bg-transparent text-zinc-100"
-      } fixed z-50 transition-all duration-300 px-4 sm:px-16 rounded-xl m-5`}
-      style={{ width: "calc(100vw - 2.5rem)" }}
+      } fixed z-50 transition-all duration-300 px-4 sm:px-16 rounded-xl mx-4 md:mx-16 mt-5 w-[calc(100%-2rem)] md:w-[calc(100%-8rem)]`}
     >
       <div
         className={` ${
@@ -91,26 +91,28 @@ export const Nav = () => {
       </div>
       <div
         className={`${
-          isOpen ? "slide-in" : "slide-out"
+          isOpen ? "fixed" : "hidden"
         } xl:hidden flex flex-col justify-start items-start h-screen w-screen bg-white fixed top-0 left-0 z-50 gap-8 text-2xl p-8`}
       >
         <button
-          className="absolute top-0 right-0 m-4"
+          className="absolute top-0 right-0 m-4 text-zinc-800"
           onClick={() => setIsOpen(false)}
         >
           <X />
         </button>
-        {navItems.map(renderNavItem)}
-        <div className="flex gap-2 border border-zinc-800 px-4 py-2 rounded-full hover:px-6 transition-all hover:bg-zinc-800 hover:text-white">
-          <a href="#">CONTACT US</a>
-          <ArrowUpRight />
+        <div className="flex gap-4 justify-between w-full mt-10">
+          <div className="flex flex-1 gap-2 border border-zinc-800 px-4 py-2 rounded-full hover:px-6 transition-all text-zinc-800">
+            <a href="#">Contact Us</a>
+            <ArrowUpRight />
+          </div>
+          <a
+            href="mailto:parkerfreestone@gmail.com"
+            className="flex justify-center items-center p-2 h-12 w-12 border border-zinc-800 rounded-full transition-all hover:bg-zinc-800 text-zinc-800 hover:text-zinc-100"
+          >
+            <Mail />
+          </a>
         </div>
-        <a
-          href="mailto:parkerfreestone@gmail.com"
-          className="p-2 border border-zinc-800 rounded-full transition-all hover:bg-zinc-800 hover:text-white"
-        >
-          <Mail />
-        </a>
+        {navItems.map(renderNavItem)}
       </div>
     </nav>
   );

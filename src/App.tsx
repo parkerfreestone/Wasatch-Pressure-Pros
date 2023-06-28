@@ -30,14 +30,26 @@ const App = () => {
           name="keywords"
           content="Utah Power Washing, Utah Pressure Washing, Power Washing, Wasatch Power Pros, Professional Cleaning, Commercial Power Washing, Residential Power Washing, Power Washing Utah, Pressure, Pressure Washing"
         />
+        <meta
+          property="og:url"
+          content="https://wasatch-pressure-pros.vercel.app"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Wasatch Pressure Pros" />
+        <meta
+          property="og:description"
+          content="Wasatch Pressure Pros provides top-notch pressure washing services in Utah. Enhance the beauty and value of your property with our superior cleaning solutions"
+        />
       </Helmet>
       <header>
         <Nav />
       </header>
-      <Hero />
-      <Services />
-      <About />
-      <Faqs />
+      <main>
+        <Hero />
+        <Services />
+        <About />
+        <Faqs />
+      </main>
     </>
   );
 };
