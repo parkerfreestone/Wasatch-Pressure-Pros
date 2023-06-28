@@ -8,11 +8,11 @@ function App() {
     <>
       <Helmet>
         <title>
-          Wasatch Power Pros: Professional Power Washing Services in Utah
+          Wasatch Pressure Pros: Professional Pressure Washing Services in Utah
         </title>
         <meta
           name="description"
-          content="Wasatch Power Pros provides top-notch power washing services in Utah. Enhance the beauty and value of your property with our superior cleaning solutions"
+          content="Wasatch Pressure Pros provides top-notch pressure washing services in Utah. Enhance the beauty and value of your property with our superior cleaning solutions"
         />
         <meta
           name="keywords"
