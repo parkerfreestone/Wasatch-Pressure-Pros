@@ -27,16 +27,35 @@ node -v
 npm -v
 ```
 
-### 📥 Up and Running
+## 📥 Installation
 
-1. Clone the repo
+### Clone the repository 🚀
 
 ```bash
+
 git clone https://github.com/username/wasatch-pressure-pros.git
 ```
 
-2. Navigate into project directory
+### Navigate into the project directory 📁
 
 ```bash
+
 cd wasatch-pressure-pros
 ```
+
+### Install the dependencies 📦
+
+```bash
+npm install
+```
+
+## Running the application 🚀
+
+### Start the development server 💻
+
+```bash
+
+npm start
+```
+
+The website will be available at http://localhost:3000.
