@@ -1,4 +1,4 @@
-import { ArrowRight, ArrowUpRight, Droplet } from "lucide-react";
+import { ArrowRight, ArrowUpRight, Droplet, Phone } from "lucide-react";
 import BannerVideo from "../assets/power-washing-banner.mp4";
 
 export const Hero = () => {
@@ -46,14 +46,14 @@ export const Hero = () => {
           className="flex flex-col sm:flex-row gap-4 mt-24 justify-center"
         >
           <a
-            href="#"
+            href="tel:801-675-9064"
             className="px-8 py-3 rounded-full bg-teal-700 flex gap-2 font-bold text-white mt-4 sm:mt-0 justify-center sm:justify-start hover:px-10 transition-all hover:opacity-90"
           >
-            GET A FREE ESTIMATE
-            <ArrowUpRight />
+            GET AN ESTIMATE
+            <Phone />
           </a>
           <a
-            href="#"
+            href="#aboutus"
             className="px-8 py-3 rounded-full border border-white flex gap-2 font-bold text-white mt-4 sm:mt-0 justify-center sm:justify-start hover:px-10 hover:bg-zinc-100 hover:text-zinc-800 transition-all"
           >
             LEARN MORE
