@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
-import { ArrowUpRight, Mail, Menu, Phone, X } from "lucide-react";
+import { Mail, Menu, Phone, X } from "lucide-react";
 
-// THIS USED TO HAVE ICONS
 const navItems = ["Home", "Our Services", "About Us", "FAQs"];
 
 export const Nav = () => {
