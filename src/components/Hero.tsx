@@ -47,14 +47,14 @@ export const Hero = () => {
         >
           <a
             href="#"
-            className="px-8 py-3 rounded-full bg-teal-700 flex gap-2 font-bold text-white mt-4 sm:mt-0 justify-center sm:justify-start"
+            className="px-8 py-3 rounded-full bg-teal-700 flex gap-2 font-bold text-white mt-4 sm:mt-0 justify-center sm:justify-start hover:px-10 transition-all hover:opacity-90"
           >
-            CONTACT US
+            GET A FREE ESTIMATE
             <ArrowUpRight />
           </a>
           <a
             href="#"
-            className="px-8 py-3 rounded-full border border-white flex gap-2 font-bold text-white mt-4 sm:mt-0 justify-center sm:justify-start"
+            className="px-8 py-3 rounded-full border border-white flex gap-2 font-bold text-white mt-4 sm:mt-0 justify-center sm:justify-start hover:px-10 hover:bg-zinc-100 hover:text-zinc-800 transition-all"
           >
             LEARN MORE
             <ArrowRight />

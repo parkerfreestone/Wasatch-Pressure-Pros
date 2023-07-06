@@ -2,34 +2,34 @@ import { HelpCircle } from "lucide-react";
 
 const questions = [
   {
-    question: "This is a sample question?",
+    question: "What is pressure washing?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique laboriosam atque nihil totam, quasi sunt ipsa velit quo perferendis? Officiis earum debitis qui quo dolorem soluta ipsa, libero eum beatae.",
+      "Pressure washing is the use of high-pressure water spray to remove loose paint, mold, grime, dust, mud, and dirt from surfaces and objects like buildings, vehicles, and concrete surfaces.",
   },
   {
-    question: "This is a sample question?",
+    question: "Why is pressure washing important?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique laboriosam atque nihil totam, quasi sunt ipsa velit quo perferendis? Officiis earum debitis qui quo dolorem soluta ipsa, libero eum beatae.",
+      "Pressure washing is a great way to maintain and enhance the look of your property. It can also prevent damage caused by the buildup of things like mold and algae.",
   },
   {
-    question: "This is a sample question?",
+    question: "How often should I have my property pressure washed?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique laboriosam atque nihil totam, quasi sunt ipsa velit quo perferendis? Officiis earum debitis qui quo dolorem soluta ipsa, libero eum beatae.",
+      "The frequency can depend on local conditions, but as a general rule, it's a good idea to have your property pressure washed when you notice accumulation of dirt, mold, or other substances. We can provide personalized advice based on the specifics of your property.",
   },
   {
-    question: "This is a sample question?",
+    question: "Is pressure washing safe for all surfaces?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique laboriosam atque nihil totam, quasi sunt ipsa velit quo perferendis? Officiis earum debitis qui quo dolorem soluta ipsa, libero eum beatae.",
+      "Not all surfaces are suited for pressure washing. Soft or delicate surfaces may be damaged by the high pressure. Our technicians are trained to evaluate each situation and adjust their techniques as needed.",
   },
   {
-    question: "This is a sample question?",
+    question: "Is your business licensed and insured?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique laboriosam atque nihil totam, quasi sunt ipsa velit quo perferendis? Officiis earum debitis qui quo dolorem soluta ipsa, libero eum beatae.",
+      "Yes, our business is fully licensed and insured. We can provide proof of insurance upon request.",
   },
   {
-    question: "This is a sample question?",
+    question: "How long does a pressure washing service take?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique laboriosam atque nihil totam, quasi sunt ipsa velit quo perferendis? Officiis earum debitis qui quo dolorem soluta ipsa, libero eum beatae.",
+      "The length of the service can vary depending on the size of the area to be cleaned. An average-sized home typically takes between 2-3 hours.",
   },
 ];
 

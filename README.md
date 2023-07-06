@@ -1,6 +1,6 @@
 # 🚀 Wasatch Pressure Pros Website
 
-This project is the official website for Wasatch Pressure Pros.
+This project is the official website for Wasatch Pressure Pros. (Was using Vite + React a little overkill? Yes, yes it was.)
 
 ## 🏁 Getting Started
 
@@ -21,7 +21,7 @@ npm -v
 
 ## 📥 Installation
 
-### 🚀 Clone the repository 
+### 🚀 Clone the repository
 
 ```bash
 
@@ -35,15 +35,15 @@ git clone https://github.com/username/wasatch-pressure-pros.git
 cd wasatch-pressure-pros
 ```
 
-### 📦 Install the dependencies 
+### 📦 Install the dependencies
 
 ```bash
 npm install
 ```
 
-## 🚀 Running the application 
+## 🚀 Running the application
 
-### 💻 Start the development server 
+### 💻 Start the development server
 
 ```bash
 

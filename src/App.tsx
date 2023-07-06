@@ -7,6 +7,7 @@ import { Nav } from "./components/Nav";
 import { Services } from "./components/Services";
 import { About } from "./components/About";
 import { Faqs } from "./components/Faqs";
+import { Footer } from "./components/Footer";
 
 const App = () => {
   useEffect(() => {
@@ -50,6 +51,9 @@ const App = () => {
         <About />
         <Faqs />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };
