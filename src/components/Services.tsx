@@ -6,14 +6,14 @@ const services = [
     Icon: Building,
     title: "Commercial",
     description:
-      "Wasatch Pressure Pros offers comprehensive residential cleaning services. From house washing to driveway, patio, and concrete cleaning, we handle it all. Our team also cleans decks, fences, parking lots, gutters, and windows to enhance the curb appeal of your home.",
+      "Our commercial services cover dumpster pad cleaning, construction equipment maintenance, fleet washing, and business window cleaning. We also provide thorough cleaning for business entrances and concrete surfaces to maintain a professional appearance for your business.",
   },
   {
     id: 2,
     Icon: Home,
     title: "Residential",
     description:
-      "Our commercial services cover dumpster pad cleaning, construction equipment maintenance, fleet washing, and business window cleaning. We also provide thorough cleaning for business entrances and concrete surfaces to maintain a professional appearance for your business.",
+      "Wasatch Pressure Pros offers comprehensive residential cleaning services. From house washing to driveway, patio, and concrete cleaning, we handle it all. Our team also cleans decks, fences, parking lots, gutters, and windows to enhance the curb appeal of your home.",
   },
   {
     id: 3,

@@ -1,12 +1,12 @@
-import { ArrowRight, ArrowUpRight, Droplet, Phone } from "lucide-react";
+import { ArrowRight, Droplet, Phone } from "lucide-react";
 import BannerVideo from "../assets/power-washing-banner.mp4";
 
 export const Hero = () => {
   return (
     <section
       id="home"
-      className="relative h-calc flex items-center justify-center text-center"
-      style={{ height: "calc(100vh - 6rem)" }}
+      className="relative flex items-center justify-center text-center pt-24 sm:pt-28 md:pt-32 lg:pt-36 xl:pt-40"
+      style={{ height: "calc(100vh - 4rem)" }}
     >
       <video
         className="absolute top-0 left-0 w-full h-full rounded-b-2xl object-cover z-10"
@@ -27,7 +27,7 @@ export const Hero = () => {
         <h1
           data-aos="fade-up"
           data-aos-delay="100"
-          className="text-5xl sm:text-6xl md:text-6xl lg:text-8xl text-white font-extrabold mt-12"
+          className="text-5xl sm:text-6xl md:text-6xl lg:text-6xl xl:text-6xl 2xl:text-8xl text-white font-extrabold mt-12"
         >
           Professional <br /> Power Washing Services
         </h1>
